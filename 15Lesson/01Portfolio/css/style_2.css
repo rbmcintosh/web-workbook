@@ -25,7 +25,10 @@ body {
 }
 
 form {
-  /*background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTWSwR-z7jomxao-f5GJGRg1AbWyGPFhX_30lZkH-UeuJdyr7fMmg);*/
+  background-image: url(http://pngimg.com/upload/cheese_PNG12.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
   height: auto;
   width: 280px;
   text-align: left;
@@ -37,7 +40,7 @@ input {
   width: 200px;
   margin-bottom: 15px;
   background-color: transparent;
-  color: white;
+  color: black;
   font-family: 'Amatic SC', cursive;
   font-size: 25px;
   border: 2px solid white;
@@ -58,11 +61,11 @@ select {
 }
 
 label {
-  color: white;
-  font-family: 'Amatic SC', cursive;
-  font-size: 22px;
-  letter-spacing: 1.5px;
-}
+  color: #1a82f7;
+background-image: url(images/linear_bg_1.png);
+background-size: cover;
+
+
 
 a {
   color: white;
@@ -73,15 +76,15 @@ a:hover {
   text-decoration: none;
 }
 
-.mouse {
-  margin-left: 50px;
+.mouse img {
+  margin-left: 100px;
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 img {
   width: auto;
-  height: auto;
+height: auto;
   -moz-transform: scale(-1, 1);
   -webkit-transform: scale(-1, 1);
   -o-transform: scale(-1, 1);
@@ -89,4 +92,9 @@ img {
   transform: scale(-1, 1);
   background-size: cover;
   overflow: hidden;
+  position: absolute;
+}
+
+.cheese {
+
 }

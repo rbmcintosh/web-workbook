@@ -1,0 +1,33 @@
+.knockout {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy63mfYMGm2SZW0CcR5TtaU5TsGeODioKEHMhPNluxrkQ1FBlxLA) -80px -80px;
+  color: red;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 100px;
+  font-family: arial, helvetica;
+  width: 600px;
+  margin: 50px auto;
+  text-align: center;
+
+}
+
+body {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gif_2 {
+  /*float: right;*/
+  /*justify-content: flex-end;*/
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.video {
+  position: absolute;
+}
